@@ -614,7 +614,8 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="premium_3_4">Battery Level Widget: Access battery level quickly with a customizable home screen widget.</string>
     <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string>
     <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string>
-    <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string>
+<!-- <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string> -->
+    <string name="premium_4">立刻升级，畅享完整功能！</string>
 <!-- <string name="free_trial">Free trial</string> -->
     <string name="free_trial">免费试用</string>
 <!-- <string name="discount">Discount</string> -->

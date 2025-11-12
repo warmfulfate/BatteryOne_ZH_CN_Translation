@@ -1,1 +1,1 @@
-# BatteryOne_CN_Translation
+# BatteryOne_ZH_CN_Translation

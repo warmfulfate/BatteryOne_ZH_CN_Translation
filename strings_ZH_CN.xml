@@ -210,7 +210,7 @@
     <string name="current_session_info">“此模块显示当前或者上次充电信息。如果电池正在充电，则显示当前充电；若在放电，它会显示最近一次充入1%的电量详情。您可以使用“手动重置充电详情”立刻重置数据，可在设置中启用此功能。\n
     平均速度：总体充电速度。\n
     屏幕开启：屏幕亮时的充电速度。\n
-    屏幕关闭：屏幕关闭的充电速度。"</string>
+    屏幕关闭：屏幕关闭的充电速度。”</string>
 <!-- <string name="avg_charge_info">"This block displays the average charging speed for all sessions. You have the option to reset this data by clearing the database in settings. -->
     <!-- Screen on is the average speed with the screen on. -->
     <!-- Screen off is the average speed with the screen off. -->
@@ -218,26 +218,26 @@
     <string name="avg_charge_info">“此模块显示所有充电的平均速度，你可以在设置中清除数据库以重置此数据。\n
     屏幕开启：屏幕亮时的平均充电速度。\n
     屏幕关闭：屏幕熄灭时的平均充电速度。\n
-    综合使用：基于您充电时的使用情况计算的平均速度。"</string>
+    综合使用：基于您充电时的使用情况计算的平均速度。”</string>
 <!-- <string name="avg_discharge_info">"This block displays the average discharging speed for all sessions. You have the option to reset this data by clearing the database in settings.
     Screen on is the average speed with the screen on.
     Screen off is the average speed with the screen off.
     Combined use is the average speed based on how you use your phone while discharging."</string> -->
-     <string name="avg_discharge_info">"此模块显示所有放电电的平均速度，你可以在设置中清除数据库以重置此数据。\n
+     <string name="avg_discharge_info">“此模块显示所有放电电的平均速度，你可以在设置中清除数据库以重置此数据。\n
     屏幕开启：屏幕亮时的放电速度。\n
     屏幕关闭：屏幕关闭的放电速度。\n
-    综合使用：基于您放电时的使用情况计算的平均速度。"</string>
+    综合使用：基于您放电时的使用情况计算的平均速度。”</string>
 <!-- <string name="loss_charge_info">"This block displays the percentage of charge and mah that were spent during the current or last session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged.
     Screen on is the amount of interest spent with the screen on.
     Screen off is the amount of interest spent with the screen turned off."</string> -->
     <string name="loss_charge_info">“此模块显示本次或上次放电所消耗的百分比电量和毫安时。若电池正在放电，则显示本次放电。 如果电池正在充电，则显示上次至少消耗了1%电量的数据。\n
     屏幕开启：屏幕开启期间所消耗的总电量。\n
     屏幕关闭：屏幕关闭期间所消耗的总电量。”</string>
-    <!-- <string namssdsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings. -->
-<!-- Average Speed is the overall discharging speed.
-Screen on is the discharging speed with the screen on.
-Screen off is the discharging speed with the screen off."</string> -->
-    <string name="dsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
+<!-- <string namssdsddurrent_session_info_discharge">"This block displays information about the current or last discharging session. If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings. -->
+    <!-- Average Speed is the overall discharging speed.
+    Screen on is the discharging speed with the screen on.
+    Screen off is the discharging speed with the screen off."</string> -->
+    <string name="dsddurrent_session_info_discharge">"此模块显示当前或者上次放电详情。If the battery is discharging, the current session will be displayed. If the battery is charging, it will display the last session during which at least 1% was discharged. You have the option to reset this data immediately using "Manual session reset". You can enable this feature in the settings.
 
 Average Speed is the overall discharging speed.
 Screen on is the discharging speed with the screen on.
@@ -454,11 +454,16 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="do_not_disturb_from">Don\'t disturb from</string>
     <string name="do_not_disturb_until">Don\'t disturb until</string>
     <string name="sound">Sound:&#160;</string>
-    <string name="import_database">Import Database</string>
-    <string name="export_database">Export Database</string>
-    <string name="import_database_text">Your database has been successfully imported.</string>
-    <string name="export_database_text">Your database has been successfully exported.</string>
-    <string name="service_error">Error service. Please restart the application.</string>
+<!-- <string name="import_database">Import Database</string> -->
+    <string name="import_database">导入数据</string>
+<!-- <string name="export_database">Export Database</string> -->
+    <string name="export_database">导出数据</string>
+<!-- <string name="import_database_text">Your database has been successfully imported.</string> -->
+    <string name="import_database_text">您的数据已成功地导入。</string>
+<!-- <string name="export_database_text">Your database has been successfully exported.</string> -->
+    <string name="export_database_text">您的数据已成功地导出。</string>
+<!-- <string name="service_error">Error service. Please restart the application.</string> -->
+    <string name="service_error">服务错误。\n请重启应用。</string>
 <!-- <string name="defaullt">Default</string> -->
     <string name="defaullt">默认</string>
     <string name="by_consumption">By consumption</string>
@@ -523,12 +528,15 @@ We understand that this may be disappointing, and we apologize for any inconveni
     <string name="amperage_current_session">Current session amperage graph</string>
     <string name="database_export_in_progress">Database export in progress</string>
     <string name="full_time">All Time</string>
-    <string name="m8">8m</string>
-    <string name="m36">36m</string>
+<!-- <string name="m8">8m</string> -->
+    <string name="m8">8分钟</string>
+<!-- <string name="m36">36m</string> -->
+    <string name="m36">36分钟</string>
     <string name="s80">80s</string>
     <string name="session_screen_time">Screen time</string>
     <string name="display_charging_amperage_graph">Display charging amperage graph</string>
-    <string name="ignore">Ignore</string>
+<!-- <string name="ignore">Ignore</string> -->
+    <string name="ignore">忽略</string>
     <string name="error_accessing_file">Error accessing the file. Try again.</string>
     <string name="work_in_background">Work in the background</string>
     <string name="use_old_style">Use the old style</string>
@@ -596,8 +604,10 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="monthly1">Monthly</string>
     <string name="annually1">Annually</string>
     <string name="weekly1">Weekly</string>
-    <string name="lifetime1">Lifetime</string>
-    <string name="press_again_to_exit">Press again to exit</string>
+<!-- <string name="lifetime1">Lifetime</string> -->
+    <string name="lifetime1">永久</string>
+<!-- <string name="press_again_to_exit">Press again to exit</string> -->
+    <string name="press_again_to_exit">再按一次退出</string>
     <plurals name="free_for_days">
         <item quantity="one">Free for %s day</item>
         <item quantity="other">Free for %s days</item>
@@ -617,12 +627,17 @@ BatteryOne does not share this data with third parties. BatteryOne requests this
     <string name="subscribe">订阅</string>
 <!-- <string name="purchase">Purchase</string> -->
     <string name="purchase">购买</string>
-    <string name="premium_3">By upgrading to %1$s, you unlock:</string>
-    <string name="premium_3_1">Ad-Free Experience: Enjoy uninterrupted use.</string>
-    <string name="premium_3_2">Database management: Organize and manage battery usage data efficiently.</string>
+<!-- <string name="premium_3">By upgrading to %1$s, you unlock:</string> -->
+    <string name="premium_3">通过升级到%1$s，你将解锁：</string>
+<!-- <string name="premium_3_1">Ad-Free Experience: Enjoy uninterrupted use.</string> -->
+    <string name="premium_3_1">无广告体验：享受无打扰的使用。</string>
+<!-- <string name="premium_3_2">Database management: Organize and manage battery usage data efficiently.</string> -->
+    <string name="premium_3_2">数据管理：高效地组织并管理电池使用数据。</string>
+<!-- <string name="premium_3_3">Advanced interface customization: Personalize the app’s appearance to match your style.</string> -->
     <string name="premium_3_3">Advanced interface customization: Personalize the app’s appearance to match your style.</string>
     <string name="premium_3_4">Battery Level Widget: Access battery level quickly with a customizable home screen widget.</string>
-    <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string>
+<!-- <string name="premium_3_6">Battery wear prediction: Estimate battery health and plan for replacements proactively.</string> -->
+    <string name="premium_3_6">电池损耗预测：评估电池健康并主动规划更换</string>
 <!-- <string name="premium_3_7">Full version of the Usage History: No limit on the number of sessions.</string> -->
     <string name="premium_3_7">使用历史的完整版本: 无限制次数的详情。</string>
 <!-- <string name="premium_4">Upgrade now and enjoy the ultimate experience!</string> -->
